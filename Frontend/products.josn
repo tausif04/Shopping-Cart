@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic and responsive",
+    "price": 15.99,
+    "image": "https://via.placeholder.com/200x150.png?text=Mouse"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit, tactile keys",
+    "price": 59.99,
+    "image": "https://via.placeholder.com/200x150.png?text=Keyboard"
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "description": "Noise-cancelling, comfortable",
+    "price": 29.99,
+    "image": "https://via.placeholder.com/200x150.png?text=Headphones"
+  },
+  {
+    "id": 4,
+    "name": "USB-C Cable",
+    "description": "Fast charging, durable",
+    "price": 9.99,
+    "image": "https://via.placeholder.com/200x150.png?text=Cable"
+  }
+]
