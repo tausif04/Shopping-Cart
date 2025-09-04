@@ -30,5 +30,5 @@ function renderProducts(products) {
 }
 
 // Load products when page starts
-document.addEventListener("DOMContentLoaded", loadProducts);
+document.addEventListener("DOMContentLoaded", loadProducts());
 
