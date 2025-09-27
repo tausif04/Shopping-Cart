@@ -30,6 +30,12 @@ function clearCart() {
 }
 
 function calculateTotal() {
-    return cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+    const discountCode = document.getElementById("discount-code").value;
+    let total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+    if (discountCode == "Ostad") {
+        total *= 0.9; // Apply 10% discount
+    }
+    return total;
 }
+
 
