@@ -35,13 +35,20 @@
                 </thead>
                 <tbody id="cart-items"></tbody>
             </table>
-            <div>
-                <p>discount code: <input type="text" id="discount-code" placeholder="Enter code"></p>
-                <button id="apply-discount">Apply</button>
+
+            <div class="promo-area">
+                <p>Discount Code:
+                    <input type="text" id="discount-code" placeholder="Enter code">
+                    <button id="apply-discount" onclick="applyPromoCode()">Apply</button>
+                </p>
+                <p id="promo-message"></p>
             </div>
+
             <div class="cart-footer">
-                <p>Total: $<span id="cart-total">0.00</span></p>
-                <button id="clear-cart">Clear Cart</button>
+                <p>Subtotal: $<span id="cart-subtotal">0.00</span></p>
+                <p>Discount: $<span id="cart-discount">0.00</span></p>
+                <p><strong>Total: $<span id="cart-total">0.00</span></strong></p>
+                <button id="clear-cart" onclick="clearCart()">Clear Cart</button>
                 <button id="checkout">Checkout</button>
             </div>
         </section>
